@@ -93,7 +93,7 @@ git clone https://github.com/R3DHULK/sqli-detector-in-perl
 cd sqli-detector-in-perl
 
 # Execute
-perl sqli-detector-in-perl.rb
+perl sql-injection-detector.pl 
 ```
 
 #
