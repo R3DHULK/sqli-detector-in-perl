@@ -20,8 +20,8 @@ foreach my $payload (@payloads) {
 
     # Check if the payload was reflected in the response
     if ($response->content =~ /error/i) {
-        print "SQL Injection Vulnerability Found!\n";
+        print " [+] SQL Injection Vulnerability Found!\n";
     } else {
-        print "No SQL Injection Vulnerability Found.\n";
+        print " [-] No SQL Injection Vulnerability Found.\n";
     }
 }
